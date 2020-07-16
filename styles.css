@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-image: linear-gradient(to right, #1b262c, lightblue );
+
+}
+.container{
+  position: relative;
+  top: 40%;
+  display: flex;
+  justify-content: center;
+}
+h1{
+  font-family: "Oswald";
+  font-size: 4rem;
+  text-shadow: 2px 2px 5px white;
+}
+.stopwatch{
+  top: 60%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+button{
+  color: white;
+  background-color: #1b262c;
+  font-size: 2rem;
+  border-radius: 10%;
+  border: 5px solid #1b262c;
+}
+p{
+  border: 2px solid black;
+  font-size: 2rem;
+  font-family: "Oswald";
+  position: relative;
+  margin-left: 10px;
+  margin-bottom: 3px;
+}
